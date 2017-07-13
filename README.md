@@ -38,9 +38,9 @@ sst(2, "s")
 
 ```bash
 # npm
-npm install sst --save
+npm install sstjs --save
 # yarn
-yarn add sst
+yarn add sstjs
 ```
 
 ## import sst.js
