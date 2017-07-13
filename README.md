@@ -50,6 +50,10 @@ yarn add sstjs
 const sst = require('sstjs')
 // ES6
 import sst from 'sstjs';
+
+// CDN
+<script src="https://unpkg.com/sstjs/dist/sst.min.js"></script>
+
 // browser
 <script src="dist/sst.min.js"></script>
 ```
