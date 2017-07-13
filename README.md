@@ -47,9 +47,9 @@ yarn add sstjs
 
 ```javascript
 // CommonJS
-const sst = require('sst')
+const sst = require('sstjs')
 // ES6
-import sst from 'sst';
+import sst from 'sstjs';
 // browser
 <script src="dist/sst.min.js"></script>
 ```
