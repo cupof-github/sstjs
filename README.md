@@ -28,7 +28,7 @@ sst(2, "s")
     console.log("run, 4 times");
   })
   .repeat(() => {
-    console.log("run, per second");
+    console.log("run, per 2 seconds");
   });
 ```
 
