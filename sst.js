@@ -107,11 +107,10 @@ function sst(num, unit) {
   * @return : Function
   */
   _this.times = (times, callback) => {
+    __isValidNum(times);
     __isFunction(callback);
 
-    let count = times === undefined ? 1 : times;
-
-    let arr = __createArray(_this.millisecond, count);
+    let arr = __createArray(_this.millisecond, times);
 
     for (let i = 0; i < arr.length; i++) {
       setTimeout(() => {
@@ -158,7 +157,6 @@ function sst(num, unit) {
 
     return _this;
   };
-
 
   return {
     immediate: _this.immediate,

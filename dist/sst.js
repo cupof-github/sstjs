@@ -115,11 +115,10 @@ function sst(num, unit) {
   * @return : Function
   */
   _this.times = function (times, callback) {
+    __isValidNum(times);
     __isFunction(callback);
 
-    var count = times === undefined ? 1 : times;
-
-    var arr = __createArray(_this.millisecond, count);
+    var arr = __createArray(_this.millisecond, times);
 
     for (var i = 0; i < arr.length; i++) {
       setTimeout(function () {
