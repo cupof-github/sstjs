@@ -1,6 +1,6 @@
 {
   "name": "sstjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Very easy to write setTimeout and setInterval process for Javascript",
   "keywords": "setTimeout, setInterval",
   "main": "dist/sst.js",
